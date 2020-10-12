@@ -17,7 +17,7 @@
     } else {
 
       var arr = [];
-      for (var i = 0; i < line.length; i++) {
+      for (var i = 0; i < katzDeliLine.length; i++) {
         arr.push(` ${i+1}. ${line[i]}`);
       }
       return `The line is currently:` + arr;
